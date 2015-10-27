@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta charset="utf-8" />
+    <script>
+        function MyClass(id) {//组件模板
+            var _self = document.getElementById(id);//根据id获取组件
+            this.addP = function (text) {//定义类方法，这里是显示内容为1233
+                if (text)
+                    _self.innerHTML += text;
+            }
+            this.addDiv=function(text) {
+                _self.innerHTML += "<div>"+text+"</div>";
+            }
+
+        }
+    </script>
+</head>
+<body>
+
+    <div id='rrr'></div>  定义占位dom节点
+
+    <script>
+        var mc = new MyClass('rrr');//初始化组件
+        mc.addP("hello");//组件调用方法
+        mc.addP("hello2");
+        mc.addDiv("this is a div");
+    </script>
+</body>
+</html>

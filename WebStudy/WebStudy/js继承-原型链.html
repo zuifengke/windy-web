@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <script>
+        function Person(name, age) {
+            this.name = name;
+            this.age = age;
+        }
+
+        Person.prototype.sayHello = function () {
+            return 'Hello, ' + this.name;
+        }
+
+        function Student(name, age, grade) {
+            Person.call(this, name, age);
+            this.grade = grade;
+        }
+
+        Student.prototype = new Person();
+        Student.prototype.upgrade = function () {
+            this.age += 1;
+            this.grade += 1;
+        }
+
+        function Teacher(name, age, sex) {
+            Person.call(this, name, age);
+            this.sex = sex;
+        }
+        Teacher.prototype = new Person();
+
+        var s = new Student('zhang san',12,12);
+        alert(s.sayHello()); //没问题
+
+
+        var t = new Teacher('李四', 12, '女');
+        alert(t.sayHello()); //没问题
+    </script>
+</body>
+</html>

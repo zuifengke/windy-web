@@ -1,0 +1,24 @@
+﻿<!--z-index 属性设置元素的堆叠顺序。拥有更高堆叠顺序的元素总是会处于堆叠顺序较低的元素的前面。-->
+<html>
+<head>
+    <style type="text/css">
+        img {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            z-index: -1;
+        }
+        p h1{
+             position: absolute;
+            z-index:0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is a heading</h1>
+  
+    <img src="eg_smile.gif" />
+    <p>由于图像的 z-index 是 -1，因此它在文本的后面出现。</p>
+</body>
+</html>

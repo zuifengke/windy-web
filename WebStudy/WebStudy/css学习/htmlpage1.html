@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <!--页面自动刷新-->
+    <script>
+        alert(Date.now);
+    </script>
+    <meta http-equiv="refresh" content="100" /> 
+    <style>
+        /*文本缩进*/
+        p {
+            text-indent: 2em;
+        }
+
+        #div1 p {
+            text-indent: -5em;
+            padding-left: 5em;
+        }
+        /*水平对齐*/
+        #div2 {
+            text-align: left;
+        }
+
+        #div3 {
+            text-align: right;
+        }
+        /*单词字间隔*/
+        #div4 p {
+            word-spacing: 300px;
+        }
+        /*字符大小写转化*/
+        #div5 {
+            text-transform: uppercase;
+        }
+        /*文本装饰*/
+        #div6 {
+            text-decoration:line-through;
+        }
+        /*css列表*/
+        #div7 ul{
+           
+            list-style-type:square;
+        }
+        #div7 ul li{
+            list-style-image:url(images/square.png);
+        }
+        /*CSS 轮廓*/
+        #div8 p {
+            outline-color:red;
+            outline-style: dotted;
+        }
+        /*css 边框*/
+        #div9 p {
+            border-style:solid;
+            border-color:blue;
+            border-width:2px;
+        }
+
+        /*css导航*/
+
+    </style>
+</head>
+<body>
+    <p> 这是文档缩进</p>
+    <div id="div1"> <p> 这是div1文档缩进  </p> </div>
+    <div id="div2">  水平居左 </div>
+    <div id="div3"> 水平居右 </div>
+    <div id="div4"><p>abc hehe30</p></div>
+    <div id="div5">hello world</div>
+    <div id="div6">hello world</div>
+    <div id="div7"
+         ><ul>正是列表
+            <li>
+                这是列表项1
+            </li>
+            <li>
+                这是列表项2
+            </li>
+        </ul>
+    </div>
+    <div id="div8"><p>hello world css 轮廓</p></div>
+    <div id="div9"><p>hello world css 边框</p></div>
+    <div id="div10">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </div>
+  
+
+</body>
+</html>

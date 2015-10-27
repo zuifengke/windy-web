@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>hello</title>
+    <meta charset="utf-8" />
+    <script>
+        var calCount = function () {
+            var count=0;
+            var get = function () {
+                count++;
+                return count;
+            }
+            return get;
+        }
+        var counter = calCount();
+        
+        console.log(counter());
+        console.log(counter());
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>

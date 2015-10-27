@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="css.css" rel="stylesheet" />
+    <link href="css2.css" rel="stylesheet" />
+    <style type="text/css">
+    #lzform {
+	color: #000000;
+}
+    </style>
+</head>
+<body>
+    <div id="anony-reg">
+        <div class="wrapper">
+
+
+            <div class="login">
+                <form id="lzform" name="lzform" method="post" action="https://www.douban.com/accounts/login">
+                    <fieldset>
+                        <legend>登录</legend>
+                        <input type="hidden" value="index_nav" name="source">
+                        <div class="item item-account">
+                            <input type="text" name="form_email" id="form_email" value="" class="inp" placeholder="邮箱/手机号" tabindex="1">
+                            <div class="opt"><label for="form_remember"><input name="remember" type="checkbox" id="form_remember" tabindex="4">记住我</label></div>
+                        </div>
+                        <div class="item item-passwd">
+                           
+                            <input name="form_password" placeholder="密码" id="form_password" class="inp" type="password" tabindex="2">
+                            <div class="opt" id="lzform"><a href="http://www.douban.com/accounts/resetpassword">忘记密码</a></div>
+                        </div>
+                        <div class="item-submit">
+                            <input value="登录" type="submit" class="bn-submit" tabindex="4">
+                        </div>
+                    </fieldset>
+                </form>
+                <div style="display:none;">
+                    <img src="https://www.douban.com/pics/blank.gif" onload="(function(url){document.getElementById('lzform').action=url;})('https://www.douban.com/accounts/login')">
+                </div>
+            </div>
+
+            <div class="reg">
+
+                <a href="/accounts/register" class="lnk-reg">加入我们 <i>注册</i></a>
+                <div class="nb-info">
+                    <b>发现更多生活</b>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
