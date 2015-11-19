@@ -58,6 +58,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="canvas.html" />
     <Content Include="css学习\css定位.html" />
     <Content Include="css学习\css导航.html" />
     <Content Include="css学习\css透明图像.html" />
@@ -76,6 +77,7 @@
     <Content Include="js组件分装.html" />
     <Content Include="js继承-原型链.html" />
     <Content Include="object.js" />
+    <Content Include="QuerySelector.html" />
     <Content Include="Web.config" />
     <Content Include="zindex.html" />
     <Content Include="参考\css.css" />

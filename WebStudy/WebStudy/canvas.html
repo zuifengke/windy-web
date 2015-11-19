@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+	<meta charset="utf-8" />
+    <script>
+        try{
+            document.createElement("canvas").getContext("2d");
+          
+        } catch (e) {
+        }
+    </script>
+    
+</head>
+<body>
+    <canvas></canvas>
+    <div id="support">
+
+    </div>
+    <canvas height="100" width="100">
+        Update your browser to enjoy canvas!
+    </canvas>   
+    <canvas id="diagonal" style="border: 1px solid;" height="200" width="200"></canvas>
+    <script>
+        function drawDiagonal() {
+            var canvas = document.getElementById('diagonal');
+            var context = canvas.getContext('2d');
+            context.beginPath();
+            context.moveTo(70, 140);
+            context.lineTo(140,70);
+            context.stroke();
+        }
+        window.addEventListener("load", drawDiagonal, true);
+    </script>
+</body>
+
+</html>
