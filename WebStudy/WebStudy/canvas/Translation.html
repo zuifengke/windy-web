@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta charset="utf-8" />
+
+</head>
+<body>
+    <canvas style="border: 1px solid;" id="diagonal" height="200" width="200"></canvas>
+    <script>
+    function drawDiagonal() {
+        var canvas = document.getElementById('diagonal');
+        var context = canvas.getContext('2d');
+        // Save a copy of the current drawing state
+        context.save();
+        // Move the drawing context to the right, and down
+        context.translate(70, 140);
+        // Draw the same line as before, but using the origin as a start
+        context.beginPath();
+        context.moveTo(0, 0);
+        context.lineTo(70, -70);
+        context.stroke();
+        // Restore the old drawing state
+        context.restore();
+    }
+    window.addEventListener("load", drawDiagonal, true);
+    </script>
+</body>
+
+</html>

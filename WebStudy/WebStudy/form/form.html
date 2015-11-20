@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+   
+   
+    <input type="range" min="0" max="100" />
+    <label for="age">Age</label>
+    <input id="age" type="range" min="18" max="120" value="18" onchange="ageDisplay.value=value">
+    <output id="ageDisplay">18</output>
+    <progress></progress>
+    <progress value="30" max="100"></progress>
+    <input type="date" />
+    <br />
+    <label>Runner: <input name="name" placeholder="First and last name"></label>
+    <br />
+    <input type="text" name="creditcard" autocomplete="off">
+    <br />
+    <input type="search" name="criteria" autofocus>
+   
+    <br />
+    <textarea id="myTextArea" spellcheck="true"></textarea>
+    <datalist id="contactList">
+        <option value="x@example.com" label="Racer X">
+        <option value="peter@example.com" label="Peter">
+    </datalist>
+    <input type="email" id="contacts" list="contactList">
+    <br />
+    <form action="/" method="post">
+        <input type="email"/>
+        <input type="text" id="firstname" name="first" required>
+        <!--html5数字校验-->
+        <input type="number" name="creditcardnumber" pattern="[0-9]{16}" title="A
+credit card number is 16 digits with no spaces or dashes">
+        <input type="submit" />
+    </form>
+    <form action="/" method="post">
+        <input type="text" name="limitedText"  maxLength="8">
+        <input type="range" name="ageCheck" min="18">
+        <br />
+        <input type="range" name="kidAgeCheck" max="12">
+        <br />
+        <input type="range" name="confidenceLevel" min="0" max="100" step="5">
+        <input type="submit" />
+    </form>
+</body>
+</html>
