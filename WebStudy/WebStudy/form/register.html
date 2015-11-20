@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+	<meta charset="utf-8" />
+    <style>
+       
+    </style>
+</head>
+<body>
+    <form name="register">
+        <p>
+            <label for="runnername">Runner:</label>
+            <input id="runnername" name="runnername" type="text"
+                   placeholder="First and last name" required>
+        </p>
+        <p>
+            <label for="phone">Tel #:</label>
+            <input id="phone" name="phone" type="tel"
+                   placeholder="(xxx) xxx-xxx">
+        </p>
+        <p>
+            <label for="emailaddress">E-mail:</label>
+            <input id="emailaddress" name="emailaddress" type="email"
+                   placeholder="For confirmation only">
+        </p>
+        <p>
+            <label for="dob">DOB:</label>
+            <input id="dob" name="dob" type="date"
+                   placeholder="MM/DD/YYYY">
+        </p>
+        <fieldset>
+            <legend>T-shirt Size: </legend>
+            <p>
+                <input id="small" type="radio" name="tshirt" value="small">
+                <label for="small">Small</label>
+            </p>
+            <p>
+                <input id="medium" type="radio" name="tshirt" value="medium">
+                <label for="medium">Medium</label>
+            </p>
+            <p>
+                <input id="large" type="radio" name="tshirt" value="large">
+                <label for="large">Large</label>
+            </p>
+            <p>
+                <label for="style">Shirt style:</label>
+                <input id="style" name="style" type="text" list="stylelist" title="Years of
+participation">
+            </p>
+            <datalist id="stylelist">
+                <option value="White" label="1st Year">
+                <option value="Gray" label="2nd - 4th Year">
+                <option value="Navy" label="Veteran (5+ Years)">
+            </datalist>
+        </fieldset>
+        <fieldset>
+            <legend>Expectations:</legend>
+            <p>
+                <label for="confidence">Confidence:</label>
+                <input id="confidence" name="level" type="range"
+                       onchange="confidenceDisplay.value=(value +'%')"
+                       min="0" max="100" step="5" value="0">
+                <output id="confidenceDisplay">0%</output>
+            </p>
+            <p>
+                <label for="notes">Notes:</label>
+                <textarea id="notes" name="notes" maxLength="140"></textarea>
+            </p>
+        </fieldset>
+        <p><input type="submit" name="register" value="Register"></p>
+    </form>
+</body>
+</html>
