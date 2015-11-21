@@ -67,6 +67,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "bootstrap-table", "C:\Users
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "30625"
+		SlnRelativePath = "C:\Users\zuife_000\Documents\GitHub\bootstrap-table\"
 	EndProjectSection
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "bootstrap", "..\bootstrap\", "{94ABBEE1-7C1B-48A8-A84C-C6735BD6F411}"
@@ -87,6 +88,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "bootstrap", "..\bootstrap\"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "41916"
+		SlnRelativePath = "..\bootstrap\"
 	EndProjectSection
 EndProject
 Global
