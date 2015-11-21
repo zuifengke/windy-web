@@ -61,6 +61,9 @@
     <Content Include="canvas\Paths.html" />
     <Content Include="canvas\canvas.html" />
     <Content Include="canvas\Translation.html" />
+    <Content Include="CommunicationAPI.html" />
+    <Content Include="convertor.js" />
+    <Content Include="crossOriginUpload.html" />
     <Content Include="css学习\css定位.html" />
     <Content Include="css学习\css导航.html" />
     <Content Include="css学习\css透明图像.html" />
@@ -75,6 +78,7 @@
     <Content Include="eg_smile.gif" />
     <Content Include="form\form.html" />
     <Content Include="form\register.html" />
+    <Content Include="Geolocation.html" />
     <Content Include="index.html" />
     <Content Include="JavaScript作用域.html" />
     <Content Include="js服务端.html" />

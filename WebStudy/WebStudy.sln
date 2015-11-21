@@ -5,27 +5,6 @@ VisualStudioVersion = 14.0.24627.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebStudy", "WebStudy\WebStudy.csproj", "{04C7089D-A737-488B-B1B8-BD2506F57913}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "canvas-test", "C:\Users\zuife_000\Documents\GitHub\canvas-test\", "{E2A9E4F4-0127-4192-9B09-238DFD1209DD}"
-	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_11917"
-		Debug.AspNetCompiler.PhysicalPath = "C:\Users\zuife_000\Documents\GitHub\canvas-test\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_11917\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_11917"
-		Release.AspNetCompiler.PhysicalPath = "C:\Users\zuife_000\Documents\GitHub\canvas-test\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_11917\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "11917"
-		SlnRelativePath = "C:\Users\zuife_000\Documents\GitHub\canvas-test\"
-	EndProjectSection
-EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "html5demos", "C:\Users\zuife_000\Documents\GitHub\html5demos\", "{7B22A135-931C-4B12-90D5-16E0403F7377}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
@@ -45,29 +24,6 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "html5demos", "C:\Users\zuif
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "33896"
 		SlnRelativePath = "C:\Users\zuife_000\Documents\GitHub\html5demos\"
-	EndProjectSection
-EndProject
-Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "PHPWebProject1", "C:\Users\zuife_000\Documents\GitHub\html5demos\PHPWebProject1.phpproj", "{8A7426B8-E742-4D52-AB46-7C61166AC409}"
-EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "bootstrap-table", "C:\Users\zuife_000\Documents\GitHub\bootstrap-table\", "{14DA4747-E9CA-4EF8-A821-E92864C59AE3}"
-	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_30625"
-		Debug.AspNetCompiler.PhysicalPath = "C:\Users\zuife_000\Documents\GitHub\bootstrap-table\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_30625\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_30625"
-		Release.AspNetCompiler.PhysicalPath = "C:\Users\zuife_000\Documents\GitHub\bootstrap-table\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_30625\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "30625"
-		SlnRelativePath = "C:\Users\zuife_000\Documents\GitHub\bootstrap-table\"
 	EndProjectSection
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "bootstrap", "..\bootstrap\", "{94ABBEE1-7C1B-48A8-A84C-C6735BD6F411}"
@@ -91,6 +47,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "bootstrap", "..\bootstrap\"
 		SlnRelativePath = "..\bootstrap\"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bootstrap_Table", "..\Bootstrap_Table\Bootstrap_Table\Bootstrap_Table.csproj", "{49E403F6-4F8E-43D3-93BE-61D528ABDC72}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -101,26 +59,18 @@ Global
 		{04C7089D-A737-488B-B1B8-BD2506F57913}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04C7089D-A737-488B-B1B8-BD2506F57913}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04C7089D-A737-488B-B1B8-BD2506F57913}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E2A9E4F4-0127-4192-9B09-238DFD1209DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E2A9E4F4-0127-4192-9B09-238DFD1209DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E2A9E4F4-0127-4192-9B09-238DFD1209DD}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{E2A9E4F4-0127-4192-9B09-238DFD1209DD}.Release|Any CPU.Build.0 = Debug|Any CPU
 		{7B22A135-931C-4B12-90D5-16E0403F7377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7B22A135-931C-4B12-90D5-16E0403F7377}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B22A135-931C-4B12-90D5-16E0403F7377}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{7B22A135-931C-4B12-90D5-16E0403F7377}.Release|Any CPU.Build.0 = Debug|Any CPU
-		{8A7426B8-E742-4D52-AB46-7C61166AC409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8A7426B8-E742-4D52-AB46-7C61166AC409}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8A7426B8-E742-4D52-AB46-7C61166AC409}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8A7426B8-E742-4D52-AB46-7C61166AC409}.Release|Any CPU.Build.0 = Release|Any CPU
-		{14DA4747-E9CA-4EF8-A821-E92864C59AE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{14DA4747-E9CA-4EF8-A821-E92864C59AE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{14DA4747-E9CA-4EF8-A821-E92864C59AE3}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{14DA4747-E9CA-4EF8-A821-E92864C59AE3}.Release|Any CPU.Build.0 = Debug|Any CPU
 		{94ABBEE1-7C1B-48A8-A84C-C6735BD6F411}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{94ABBEE1-7C1B-48A8-A84C-C6735BD6F411}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94ABBEE1-7C1B-48A8-A84C-C6735BD6F411}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{94ABBEE1-7C1B-48A8-A84C-C6735BD6F411}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{49E403F6-4F8E-43D3-93BE-61D528ABDC72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49E403F6-4F8E-43D3-93BE-61D528ABDC72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49E403F6-4F8E-43D3-93BE-61D528ABDC72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49E403F6-4F8E-43D3-93BE-61D528ABDC72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
