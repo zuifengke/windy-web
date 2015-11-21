@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="../dist/css/bootstrap.css" rel="stylesheet">
+    <link href="../dist/css/bootstrap3/bootstrap-switch.css" rel="stylesheet" />
+    <script src="../dist/jquery.min.js"></script>
+    <script src="../dist/js/bootstrap-switch.min.js"></script>
+    <script>
+        (function () {
+            $.fn.bootstrapSwitch.defaults.size = 'small';
+            $(function () {
+                $("input[type=\"checkbox\"], input[type=\"radio\"]").bootstrapSwitch();
+
+            });
+        }.call(this));
+    </script>
+</head>
+<body>
+
+    <div>
+        <input type="checkbox" checked />
+    </div>
+   
+</body>
+</html>

@@ -49,6 +49,46 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "html5demos", "C:\Users\zuif
 EndProject
 Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "PHPWebProject1", "C:\Users\zuife_000\Documents\GitHub\html5demos\PHPWebProject1.phpproj", "{8A7426B8-E742-4D52-AB46-7C61166AC409}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "bootstrap-table", "C:\Users\zuife_000\Documents\GitHub\bootstrap-table\", "{14DA4747-E9CA-4EF8-A821-E92864C59AE3}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_30625"
+		Debug.AspNetCompiler.PhysicalPath = "C:\Users\zuife_000\Documents\GitHub\bootstrap-table\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_30625\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_30625"
+		Release.AspNetCompiler.PhysicalPath = "C:\Users\zuife_000\Documents\GitHub\bootstrap-table\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_30625\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "30625"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "bootstrap", "..\bootstrap\", "{94ABBEE1-7C1B-48A8-A84C-C6735BD6F411}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_41916"
+		Debug.AspNetCompiler.PhysicalPath = "..\bootstrap\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_41916\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_41916"
+		Release.AspNetCompiler.PhysicalPath = "..\bootstrap\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_41916\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "41916"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +111,14 @@ Global
 		{8A7426B8-E742-4D52-AB46-7C61166AC409}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A7426B8-E742-4D52-AB46-7C61166AC409}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A7426B8-E742-4D52-AB46-7C61166AC409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14DA4747-E9CA-4EF8-A821-E92864C59AE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14DA4747-E9CA-4EF8-A821-E92864C59AE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14DA4747-E9CA-4EF8-A821-E92864C59AE3}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{14DA4747-E9CA-4EF8-A821-E92864C59AE3}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{94ABBEE1-7C1B-48A8-A84C-C6735BD6F411}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94ABBEE1-7C1B-48A8-A84C-C6735BD6F411}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94ABBEE1-7C1B-48A8-A84C-C6735BD6F411}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{94ABBEE1-7C1B-48A8-A84C-C6735BD6F411}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

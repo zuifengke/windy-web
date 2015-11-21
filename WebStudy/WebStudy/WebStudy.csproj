@@ -87,7 +87,6 @@
     <Content Include="zindex.html" />
     <Content Include="参考\css.css" />
     <Content Include="参考\css2.css" />
-    <Content Include="参考\HtmlPage1.html" />
     <Content Include="参考\images\Connect_logo_7.png" />
     <Content Include="参考\豆瓣登录.html" />
   </ItemGroup>

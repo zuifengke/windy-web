@@ -1,33 +1,32 @@
 ﻿<!DOCTYPE html>
-<html>
-<body>
-
-    <p>计数: <output id="result"></output></p>
-    <button onclick="startWorker()">开始 Worker</button>
-    <button onclick="stopWorker()">停止 Worker</button>
-    <br /><br />
-
-    <script>
-        var w;
-
-        function startWorker() {
-            if (typeof (Worker) !== "undefined") {
-                if (typeof (w) == "undefined") {
-                    w = new Worker("/example/html5/demo_workers.js");
-                }
-                w.onmessage = function (event) {
-                    document.getElementById("result").innerHTML = event.data;
-                };
+<title>Simple Web Workers Example</title>
+<link rel="stylesheet" href="styles.css">
+<h1>Simple Web Workers Example</h1>
+<p id="support">Your browser does not support Web Workers.</p>
+<button id="stopButton">Stop Task</button>
+<button id="helloButton">Post a Message</button>
+<script>
+    function stopWorker() {
+        worker.terminate();
+    }
+    function messageHandler(e) {
+        console.log(e.data);
+    }
+    function errorHandler(e) {
+        console.warn(e.message, e);
+    }
+    function loadDemo() {
+        if (typeof (Worker) !== "undefined") {
+            document.getElementById("support").innerHTML =
+            "Excellent! Your browser supports Web Workers";
+            worker = new Worker("echoWorker.js");
+            worker.addEventListener("message", messageHandler, true);
+            worker.addEventListener("error", errorHandler, true);
+            document.getElementById("helloButton").onclick = function () {
+                worker.postMessage("Here's a message for you");
             }
-            else {
-                document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Workers...";
-            }
+            document.getElementById("stopButton").onclick = stopWorker;
         }
-
-        function stopWorker() {
-            w.terminate();
-        }
-    </script>
-
-</body>
-</html>
+    }
+    window.addEventListener("load", loadDemo, true);
+</script>
