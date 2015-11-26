@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta charset="utf-8" />
+    <style>
+        .div {
+            background: #fff;
+            border: 2px solid #000;
+            height: 100px;
+            width: 100px;
+            position: relative;
+        }
+
+            .div:after, .div:before {
+                border: 0 solid transparent;
+                position: absolute;
+                top: 100%;
+                content: '';
+            }
+
+            .div:before {
+                border-width: 12px;
+                border-top-color: #000;
+                left: 38px;
+            }
+
+            .div:after {
+                border-width: 10px;
+                border-top-color: #fff;
+                left: 40px;
+            }
+    </style>
+</head>
+<body>
+    <div class="div"></div>
+
+</body>
+</html>

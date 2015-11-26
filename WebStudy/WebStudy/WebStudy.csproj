@@ -66,7 +66,9 @@
     <Content Include="crossOriginUpload.html" />
     <Content Include="css学习\css定位.html" />
     <Content Include="css学习\css导航.html" />
+    <Content Include="css学习\css-小尖角效果.html" />
     <Content Include="css学习\css透明图像.html" />
+    <Content Include="css学习\圆角框.html" />
     <Content Include="css学习\htmlpage1.html" />
     <Content Include="css学习\images\news1.jpg" />
     <Content Include="css学习\images\square.png" />
@@ -89,10 +91,6 @@
     <Content Include="Web.config" />
     <Content Include="webworker\worker.html" />
     <Content Include="zindex.html" />
-    <Content Include="参考\css.css" />
-    <Content Include="参考\css2.css" />
-    <Content Include="参考\images\Connect_logo_7.png" />
-    <Content Include="参考\豆瓣登录.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -107,7 +105,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="css学习\css\" />
-    <Folder Include="参考\test\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
