@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/bootstrap")
+    @Styles.Render("~/Content/toastr")
+    @Styles.Render("~/Content/multiselect")
+    @Styles.Render("~/Content/validation")
+    @Styles.Render("~/Content/bootstrap-table")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/toastr")
+    @Scripts.Render("~/bundles/multiselect")
+    @Scripts.Render("~/bundles/validation")
+    @Scripts.Render("~/bundles/bootstrap-table")
+    <script type="text/javascript">
+        //toastr.options.positionClass = 'toast-bottom-right';
+    </script>
+    <style type="text/css">
+       
+    </style>
+    @RenderSection("Scripts", false)
+</head>
+<body>
+    <div class="container-fluid" style="padding-left:0px;">
+        @RenderBody()
+    </div>
+</body>
+</html>
