@@ -1,0 +1,338 @@
+﻿<!DOCTYPE html>
+<html class="ui-mobile">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+	<meta charset="utf-8" />
+    <link href="Content/jquery.mobile-1.4.5.css" rel="stylesheet" />
+    <link href="Content/jquery.mobile.theme-1.4.5.css" rel="stylesheet" />
+    <script src="Scripts/jquery-1.8.0.js"></script>
+    <script src="Scripts/jquery.mobile-1.4.5.js"></script>
+    <link href="_assets/css/jqm-demos.css" rel="stylesheet" />
+</head>
+<body class="ui-mobile-viewport ui-overlay-a">
+    <div data-role="page">
+
+        <div data-role="panel" class="jqm-navmenu-panel ui-panel ui-panel-position-left ui-panel-display-overlay ui-panel-closed ui-body-a ui-panel-animate" data-position="left" id="mypanel">
+            hello
+            <!-- panel content goes here -->
+        </div><!-- /panel -->
+        <div data-role="header">
+            <h1>欢迎访问我的主页</h1>
+            <a data-role="button" href="#mypanel" id="hello">panel</a>
+        </div>
+
+        <div data-role="content">
+            <p>我是一名移动开发者！</p>
+        </div>
+        <div data-role="panel" class="jqm-navmenu-panel ui-panel ui-panel-position-left ui-panel-display-overlay ui-panel-closed ui-body-a ui-panel-animate" data-position="left" data-display="overlay" data-theme="a">
+            <div class="ui-panel-inner">
+                <ul class="jqm-list ui-alt-icon ui-nodisc-icon ui-listview">
+                    <li data-filtertext="demos homepage" data-icon="home" class="ui-first-child"><a href=".././" class="ui-btn ui-btn-icon-right ui-icon-home">Home</a></li>
+                    <li data-filtertext="introduction overview getting started"><a href="../intro/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Introduction</a></li>
+                    <li data-filtertext="buttons button markup buttonmarkup method anchor link button element"><a href="../button-markup/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Buttons</a></li>
+                    <li data-filtertext="form button widget input button submit reset"><a href="../button/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Button widget</a></li>
+                    <li data-role="collapsible" data-enhanced="true" data-collapsed-icon="caret-d" data-expanded-icon="caret-u" data-iconpos="right" data-inset="false" class="ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed ui-li-static ui-body-inherit">
+                        <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+                            <a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-right ui-icon-caret-d">
+                                Checkboxradio widget<span class="ui-collapsible-heading-status"> click to expand contents</span>
+                            </a>
+                        </h3>
+                        <div class="ui-collapsible-content ui-body-inherit ui-collapsible-content-collapsed" aria-hidden="true">
+                            <ul class="ui-listview">
+                                <li data-filtertext="form checkboxradio widget checkbox input checkboxes controlgroups" class="ui-first-child"><a href="../checkboxradio-checkbox/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Checkboxes</a></li>
+                                <li data-filtertext="form checkboxradio widget radio input radio buttons controlgroups" class="ui-last-child"><a href="../checkboxradio-radio/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Radio buttons</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li data-role="collapsible" data-enhanced="true" data-collapsed-icon="caret-d" data-expanded-icon="caret-u" data-iconpos="right" data-inset="false" class="ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed ui-li-static ui-body-inherit">
+                        <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+                            <a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-right ui-icon-caret-d">
+                                Collapsible (set) widget<span class="ui-collapsible-heading-status"> click to expand contents</span>
+                            </a>
+                        </h3>
+                        <div class="ui-collapsible-content ui-body-inherit ui-collapsible-content-collapsed" aria-hidden="true">
+                            <ul class="ui-listview">
+                                <li data-filtertext="collapsibles content formatting" class="ui-first-child"><a href="../collapsible/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Collapsible</a></li>
+                                <li data-filtertext="dynamic collapsible set accordion append expand"><a href="../collapsible-dynamic/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Dynamic collapsibles</a></li>
+                                <li data-filtertext="accordions collapsible set widget content formatting grouped collapsibles" class="ui-last-child"><a href="../collapsibleset/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Collapsible set</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li data-role="collapsible" data-enhanced="true" data-collapsed-icon="caret-d" data-expanded-icon="caret-u" data-iconpos="right" data-inset="false" class="ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed ui-li-static ui-body-inherit">
+                        <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+                            <a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-right ui-icon-caret-d">
+                                Controlgroup widget<span class="ui-collapsible-heading-status"> click to expand contents</span>
+                            </a>
+                        </h3>
+                        <div class="ui-collapsible-content ui-body-inherit ui-collapsible-content-collapsed" aria-hidden="true">
+                            <ul class="ui-listview">
+                                <li data-filtertext="controlgroups selectmenu checkboxradio input grouped buttons horizontal vertical" class="ui-first-child"><a href="../controlgroup/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Controlgroup</a></li>
+                                <li data-filtertext="dynamic controlgroup dynamically add buttons" class="ui-last-child"><a href="../controlgroup-dynamic/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Dynamic controlgroups</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li data-filtertext="form datepicker widget date input"><a href="../datepicker/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Datepicker</a></li>
+                    <li data-role="collapsible" data-enhanced="true" data-collapsed-icon="caret-d" data-expanded-icon="caret-u" data-iconpos="right" data-inset="false" class="ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed ui-li-static ui-body-inherit">
+                        <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+                            <a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-right ui-icon-caret-d">
+                                Events<span class="ui-collapsible-heading-status"> click to expand contents</span>
+                            </a>
+                        </h3>
+                        <div class="ui-collapsible-content ui-body-inherit ui-collapsible-content-collapsed" aria-hidden="true">
+                            <ul class="ui-listview">
+                                <li data-filtertext="swipe to delete list items listviews swipe events" class="ui-first-child"><a href="../swipe-list/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Swipe list items</a></li>
+                                <li data-filtertext="swipe to navigate swipe page navigation swipe events" class="ui-last-child"><a href="../swipe-page/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Swipe page navigation</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li data-filtertext="filterable filter elements sorting searching listview table"><a href="../filterable/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Filterable widget</a></li>
+                    <li data-filtertext="form flipswitch widget flip toggle switch binary select checkbox input"><a href="../flipswitch/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Flipswitch widget</a></li>
+                    <li data-role="collapsible" data-enhanced="true" data-collapsed-icon="caret-d" data-expanded-icon="caret-u" data-iconpos="right" data-inset="false" class="ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed ui-li-static ui-body-inherit">
+                        <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+                            <a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-right ui-icon-caret-d">
+                                Forms<span class="ui-collapsible-heading-status"> click to expand contents</span>
+                            </a>
+                        </h3>
+                        <div class="ui-collapsible-content ui-body-inherit ui-collapsible-content-collapsed" aria-hidden="true">
+                            <ul class="ui-listview">
+                                <li data-filtertext="forms text checkbox radio range button submit reset inputs selects textarea slider flipswitch label form elements" class="ui-first-child"><a href="../forms/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Forms</a></li>
+                                <li data-filtertext="form hide labels hidden accessible ui-hidden-accessible forms"><a href="../forms-label-hidden-accessible/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Hide labels</a></li>
+                                <li data-filtertext="form field containers fieldcontain ui-field-contain forms"><a href="../forms-field-contain/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Field containers</a></li>
+                                <li data-filtertext="forms disabled form elements"><a href="../forms-disabled/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Forms disabled</a></li>
+                                <li data-filtertext="forms gallery examples overview forms text checkbox radio range button submit reset inputs selects textarea slider flipswitch label form elements" class="ui-last-child"><a href="../forms-gallery/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Forms gallery</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li data-role="collapsible" data-enhanced="true" data-collapsed-icon="caret-d" data-expanded-icon="caret-u" data-iconpos="right" data-inset="false" class="ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed ui-li-static ui-body-inherit">
+                        <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+                            <a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-right ui-icon-caret-d">
+                                Grids<span class="ui-collapsible-heading-status"> click to expand contents</span>
+                            </a>
+                        </h3>
+                        <div class="ui-collapsible-content ui-body-inherit ui-collapsible-content-collapsed" aria-hidden="true">
+                            <ul class="ui-listview">
+                                <li data-filtertext="grids columns blocks content formatting rwd responsive css framework" class="ui-first-child"><a href="../grids/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Grids</a></li>
+                                <li data-filtertext="buttons in grids css framework"><a href="../grids-buttons/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Buttons in grids</a></li>
+                                <li data-filtertext="custom responsive grids rwd css framework" class="ui-last-child"><a href="../grids-custom-responsive/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Custom responsive grids</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li data-filtertext="blocks content formatting sections heading"><a href="../body-bar-classes/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Grouping and dividing content</a></li>
+                    <li data-role="collapsible" data-enhanced="true" data-collapsed-icon="caret-d" data-expanded-icon="caret-u" data-iconpos="right" data-inset="false" class="ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed ui-li-static ui-body-inherit">
+                        <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+                            <a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-right ui-icon-caret-d">
+                                Icons<span class="ui-collapsible-heading-status"> click to expand contents</span>
+                            </a>
+                        </h3>
+                        <div class="ui-collapsible-content ui-body-inherit ui-collapsible-content-collapsed" aria-hidden="true">
+                            <ul class="ui-listview">
+                                <li data-filtertext="button icons svg disc alt custom icon position" class="ui-first-child"><a href="../icons/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Icons</a></li>
+                                <li data-filtertext="" class="ui-last-child"><a href="../icons-grunticon/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Grunticon loader</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li data-role="collapsible" data-enhanced="true" data-collapsed-icon="caret-d" data-expanded-icon="caret-u" data-iconpos="right" data-inset="false" class="ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed ui-li-static ui-body-inherit">
+                        <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+                            <a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-right ui-icon-caret-d">
+                                Listview widget<span class="ui-collapsible-heading-status"> click to expand contents</span>
+                            </a>
+                        </h3>
+                        <div class="ui-collapsible-content ui-body-inherit ui-collapsible-content-collapsed" aria-hidden="true">
+                            <ul class="ui-listview">
+                                <li data-filtertext="listview widget thumbnails icons nested split button collapsible ul ol" class="ui-first-child"><a href="../listview/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Listview</a></li>
+                                <li data-filtertext="autocomplete filterable reveal listview filtertextbeforefilter placeholder"><a href="../listview-autocomplete/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Listview autocomplete</a></li>
+                                <li data-filtertext="autocomplete filterable reveal listview remote data filtertextbeforefilter placeholder"><a href="../listview-autocomplete-remote/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Listview autocomplete remote data</a></li>
+                                <li data-filtertext="autodividers anchor jump scroll linkbars listview lists ul ol"><a href="../listview-autodividers-linkbar/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Listview autodividers linkbar</a></li>
+                                <li data-filtertext="listview autodividers selector autodividersselector lists ul ol"><a href="../listview-autodividers-selector/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Listview autodividers selector</a></li>
+                                <li data-filtertext="listview nested list items"><a href="../listview-nested-lists/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Nested Listviews</a></li>
+                                <li data-filtertext="listview collapsible list items flat"><a href="../listview-collapsible-item-flat/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Listview collapsible list items (flat)</a></li>
+                                <li data-filtertext="listview collapsible list indented"><a href="../listview-collapsible-item-indented/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Listview collapsible list items (indented)</a></li>
+                                <li data-filtertext="grid listview responsive grids responsive listviews lists ul" class="ui-last-child"><a href="../listview-grid/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Listview responsive grid</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li data-filtertext="loader widget page loading navigation overlay spinner"><a href="../loader/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Loader widget</a></li>
+                    <li data-filtertext="navbar widget navmenu toolbars header footer"><a href="../navbar/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Navbar widget</a></li>
+                    <li data-role="collapsible" data-enhanced="true" data-collapsed-icon="caret-d" data-expanded-icon="caret-u" data-iconpos="right" data-inset="false" class="ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed ui-li-static ui-body-inherit">
+                        <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+                            <a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-right ui-icon-caret-d">
+                                Navigation<span class="ui-collapsible-heading-status"> click to expand contents</span>
+                            </a>
+                        </h3>
+                        <div class="ui-collapsible-content ui-body-inherit ui-collapsible-content-collapsed" aria-hidden="true">
+                            <ul class="ui-listview">
+                                <li data-filtertext="ajax navigation navigate widget history event method" class="ui-first-child"><a href="../navigation/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Navigation</a></li>
+                                <li data-filtertext="linking pages page links navigation ajax prefetch cache"><a href="../navigation-linking-pages/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Linking pages</a></li>
+                                <!-- <li data-filtertext="php redirect server redirection server-side navigation"><a href="../navigation-php-redirect/" data-ajax="false">PHP redirect demo</a></li>-->
+                                <li data-filtertext="navigation redirection hash query"><a href="../navigation-hash-processing/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Hash processing demo</a></li>
+                                <li data-filtertext="navigation redirection hash query" class="ui-last-child"><a href="../page-events/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Page Navigation Events</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li data-role="collapsible" data-enhanced="true" data-collapsed-icon="caret-d" data-expanded-icon="caret-u" data-iconpos="right" data-inset="false" class="ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed ui-li-static ui-body-inherit">
+                        <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+                            <a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-right ui-icon-caret-d">
+                                Pages<span class="ui-collapsible-heading-status"> click to expand contents</span>
+                            </a>
+                        </h3>
+                        <div class="ui-collapsible-content ui-body-inherit ui-collapsible-content-collapsed" aria-hidden="true">
+                            <ul class="ui-listview">
+                                <li data-filtertext="pages page widget ajax navigation" class="ui-first-child"><a href="../pages/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Pages</a></li>
+                                <li data-filtertext="single page"><a href="../pages-single-page/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Single page</a></li>
+                                <li data-filtertext="multipage multi-page page"><a href="../pages-multi-page/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Multi-page template</a></li>
+                                <li data-filtertext="dialog page widget modal popup" class="ui-last-child"><a href="../pages-dialog/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Dialog page</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li data-role="collapsible" data-enhanced="true" data-collapsed-icon="caret-d" data-expanded-icon="caret-u" data-iconpos="right" data-inset="false" class="ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed ui-li-static ui-body-inherit">
+                        <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+                            <a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-right ui-icon-caret-d">
+                                Panel widget<span class="ui-collapsible-heading-status"> click to expand contents</span>
+                            </a>
+                        </h3>
+                        <div class="ui-collapsible-content ui-body-inherit ui-collapsible-content-collapsed" aria-hidden="true">
+                            <ul class="ui-listview">
+                                <li data-filtertext="panel widget sliding panels reveal push overlay responsive" class="ui-first-child"><a href="../panel/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Panel</a></li>
+                                <li data-filtertext=""><a href="../external-widgets/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">External and internal panels</a></li>
+                                <li data-filtertext="panel "><a href="../panel-fixed/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Fixed panels</a></li>
+                                <li data-filtertext="panel slide panels sliding panels shadow rwd responsive breakpoint"><a href="../panel-responsive/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Panels responsive</a></li>
+                                <li data-filtertext="panel custom style custom panel width reveal shadow listview panel styling page background wrapper"><a href="../panel-styling/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Custom panel style</a></li>
+                                <li data-filtertext="panel open on swipe" class="ui-last-child"><a href="../panel-swipe-open/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Panel open on swipe</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li data-role="collapsible" data-enhanced="true" data-collapsed-icon="caret-d" data-expanded-icon="caret-u" data-iconpos="right" data-inset="false" class="ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed ui-li-static ui-body-inherit">
+                        <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+                            <a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-right ui-icon-caret-d">
+                                Popup widget<span class="ui-collapsible-heading-status"> click to expand contents</span>
+                            </a>
+                        </h3>
+                        <div class="ui-collapsible-content ui-body-inherit ui-collapsible-content-collapsed" aria-hidden="true">
+                            <ul class="ui-listview">
+                                <li data-filtertext="popup widget popups dialog modal transition tooltip lightbox form overlay screen flip pop fade transition" class="ui-first-child"><a href="../popup/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Popup</a></li>
+                                <li data-filtertext="popup alignment position"><a href="../popup-alignment/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Popup alignment</a></li>
+                                <li data-filtertext="popup arrow size popups popover"><a href="../popup-arrow-size/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Popup arrow size</a></li>
+                                <li data-filtertext="dynamic popups popup images lightbox"><a href="../popup-dynamic/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Dynamic popups</a></li>
+                                <li data-filtertext="popups with iframes scaling"><a href="../popup-iframe/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Popups with iframes</a></li>
+                                <li data-filtertext="popup image scaling"><a href="../popup-image-scaling/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Popup image scaling</a></li>
+                                <li data-filtertext="external popup outside multi-page" class="ui-last-child"><a href="../popup-outside-multipage/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Popup outside multi-page</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li data-filtertext="form rangeslider widget dual sliders dual handle sliders range input"><a href="../rangeslider/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Rangeslider widget</a></li>
+                    <li data-filtertext="responsive web design rwd adaptive progressive enhancement PE accessible mobile breakpoints media query media queries"><a href="../rwd/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Responsive Web Design</a></li>
+                    <li data-role="collapsible" data-enhanced="true" data-collapsed-icon="caret-d" data-expanded-icon="caret-u" data-iconpos="right" data-inset="false" class="ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed ui-li-static ui-body-inherit">
+                        <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+                            <a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-right ui-icon-caret-d">
+                                Selectmenu widget<span class="ui-collapsible-heading-status"> click to expand contents</span>
+                            </a>
+                        </h3>
+                        <div class="ui-collapsible-content ui-body-inherit ui-collapsible-content-collapsed" aria-hidden="true">
+                            <ul class="ui-listview">
+                                <li data-filtertext="form selectmenu widget select input custom select menu selects" class="ui-first-child"><a href="../selectmenu/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Selectmenu</a></li>
+                                <li data-filtertext="form custom select menu selectmenu widget custom menu option optgroup multiple selects"><a href="../selectmenu-custom/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Custom select menu</a></li>
+                                <li data-filtertext="filterable select filter popup dialog" class="ui-last-child"><a href="../selectmenu-custom-filter/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Custom select menu with filter</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li data-role="collapsible" data-enhanced="true" data-collapsed-icon="caret-d" data-expanded-icon="caret-u" data-iconpos="right" data-inset="false" class="ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed ui-li-static ui-body-inherit">
+                        <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+                            <a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-right ui-icon-caret-d">
+                                Slider widget<span class="ui-collapsible-heading-status"> click to expand contents</span>
+                            </a>
+                        </h3>
+                        <div class="ui-collapsible-content ui-body-inherit ui-collapsible-content-collapsed" aria-hidden="true">
+                            <ul class="ui-listview">
+                                <li data-filtertext="form slider widget range input single sliders" class="ui-first-child"><a href="../slider/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Slider</a></li>
+                                <li data-filtertext="form slider widget flipswitch slider binary select flip toggle switch"><a href="../slider-flipswitch/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Slider flip toggle switch</a></li>
+                                <li data-filtertext="form slider tooltip handle value input range sliders" class="ui-last-child"><a href="../slider-tooltip/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Slider tooltip</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li data-role="collapsible" data-enhanced="true" data-collapsed-icon="caret-d" data-expanded-icon="caret-u" data-iconpos="right" data-inset="false" class="ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed ui-li-static ui-body-inherit">
+                        <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+                            <a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-right ui-icon-caret-d">
+                                Table widget<span class="ui-collapsible-heading-status"> click to expand contents</span>
+                            </a>
+                        </h3>
+                        <div class="ui-collapsible-content ui-body-inherit ui-collapsible-content-collapsed" aria-hidden="true">
+                            <ul class="ui-listview">
+                                <li data-filtertext="table widget reflow column toggle th td responsive tables rwd hide show tabular" class="ui-first-child"><a href="../table-column-toggle/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Table Column Toggle</a></li>
+                                <li data-filtertext="table column toggle phone comparison demo"><a href="../table-column-toggle-example/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Table Column Toggle demo</a></li>
+                                <li data-filtertext="responsive tables table column toggle heading groups rwd breakpoint"><a href="../table-column-toggle-heading-groups/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Table Column Toggle heading groups</a></li>
+                                <li data-filtertext="responsive tables table column toggle hide rwd breakpoint customization options"><a href="../table-column-toggle-options/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Table Column Toggle options</a></li>
+                                <li data-filtertext="table reflow th td responsive rwd columns tabular"><a href="../table-reflow/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Table Reflow</a></li>
+                                <li data-filtertext="responsive tables table reflow heading groups rwd breakpoint"><a href="../table-reflow-heading-groups/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Table Reflow heading groups</a></li>
+                                <li data-filtertext="responsive tables table reflow stripes strokes table style"><a href="../table-reflow-stripes-strokes/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Table Reflow stripes and strokes</a></li>
+                                <li data-filtertext="responsive tables table reflow stack custom styles" class="ui-last-child"><a href="../table-reflow-styling/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Table Reflow custom styles</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li data-filtertext="ui tabs widget"><a href="../tabs/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Tabs widget</a></li>
+                    <li data-filtertext="form textinput widget text input textarea number date time tel email file color password"><a href="../textinput/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Textinput widget</a></li>
+                    <li data-role="collapsible" data-enhanced="true" data-collapsed-icon="caret-d" data-expanded-icon="caret-u" data-iconpos="right" data-inset="false" class="ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed ui-li-static ui-body-inherit">
+                        <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+                            <a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-right ui-icon-caret-d">
+                                Theming<span class="ui-collapsible-heading-status"> click to expand contents</span>
+                            </a>
+                        </h3>
+                        <div class="ui-collapsible-content ui-body-inherit ui-collapsible-content-collapsed" aria-hidden="true">
+                            <ul class="ui-listview">
+                                <li data-filtertext="default theme swatches theming style css" class="ui-first-child"><a href="../theme-default/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Default theme</a></li>
+                                <li data-filtertext="classic theme old theme swatches theming style css" class="ui-last-child"><a href="../theme-classic/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Classic theme</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li data-role="collapsible" data-enhanced="true" data-collapsed-icon="caret-d" data-expanded-icon="caret-u" data-iconpos="right" data-inset="false" class="ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed ui-li-static ui-body-inherit">
+                        <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+                            <a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-right ui-icon-caret-d">
+                                Toolbar widget<span class="ui-collapsible-heading-status"> click to expand contents</span>
+                            </a>
+                        </h3>
+                        <div class="ui-collapsible-content ui-body-inherit ui-collapsible-content-collapsed" aria-hidden="true">
+                            <ul class="ui-listview">
+                                <li data-filtertext="toolbar widget header footer toolbars fixed fullscreen external sections" class="ui-first-child"><a href="../toolbar/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Toolbar</a></li>
+                                <li data-filtertext="dynamic toolbars dynamically add toolbar header footer"><a href="../toolbar-dynamic/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Dynamic toolbars</a></li>
+                                <li data-filtertext="external toolbars header footer"><a href="../toolbar-external/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">External toolbars</a></li>
+                                <li data-filtertext="fixed toolbars header footer"><a href="../toolbar-fixed/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Fixed toolbars</a></li>
+                                <li data-filtertext="fixed fullscreen toolbars header footer"><a href="../toolbar-fixed-fullscreen/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Fullscreen toolbars</a></li>
+                                <li data-filtertext="external fixed toolbars header footer"><a href="../toolbar-fixed-external/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Fixed external toolbars</a></li>
+                                <li data-filtertext="external persistent toolbars header footer navbar navmenu"><a href="../toolbar-fixed-persistent/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Persistent toolbars</a></li>
+                                <li data-filtertext="external ajax optimized toolbars persistent toolbars header footer navbar"><a href="../external-widgets/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Ajax optimized toolbars</a></li>
+                                <li data-filtertext="form in toolbars header footer" class="ui-last-child"><a href="../toolbar-fixed-forms/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Form in toolbar</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li data-filtertext="page transitions animated pages popup navigation flip slide fade pop"><a href="../transitions/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Transitions</a></li>
+                    <li data-role="collapsible" data-enhanced="true" data-collapsed-icon="caret-d" data-expanded-icon="caret-u" data-iconpos="right" data-inset="false" class="ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed ui-li-static ui-body-inherit ui-last-child">
+                        <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+                            <a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-right ui-icon-caret-d">
+                                3rd party API demos<span class="ui-collapsible-heading-status"> click to expand contents</span>
+                            </a>
+                        </h3>
+                        <div class="ui-collapsible-content ui-body-inherit ui-collapsible-content-collapsed" aria-hidden="true">
+                            <ul class="ui-listview">
+                                <li data-filtertext="backbone requirejs navigation router" class="ui-first-child"><a href="../backbone-requirejs/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Backbone RequireJS</a></li>
+                                <li data-filtertext="google maps geolocation demo"><a href="../map-geolocation/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Google Maps geolocation</a></li>
+                                <li data-filtertext="google maps hybrid" class="ui-last-child"><a href="../map-list-toggle/" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-caret-r">Google Maps list toggle</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+        <div data-role="footer">
+            <h1>页脚文本</h1>
+        </div>
+
+    </div>
+    <script>
+        $("#hello").click(function () {
+            $("#mypanel").trigger("updatelayout");
+        });
+    </script>
+</body>
+</html>
