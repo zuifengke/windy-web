@@ -77,10 +77,16 @@
     <Content Include="css学习\图文混排.html" />
     <Content Include="css学习\字体.html" />
     <Content Include="css学习\链接.html" />
+    <Content Include="div-alt.html" />
+    <Content Include="jquery-select.html" />
+    <Content Include="drap-drop.html" />
     <Content Include="eg_smile.gif" />
+    <Content Include="file-input.html" />
     <Content Include="form\form.html" />
     <Content Include="form\register.html" />
     <Content Include="Geolocation.html" />
+    <Content Include="images\drag.png" />
+    <Content Include="Object.create.html" />
     <Content Include="index.html" />
     <Content Include="JavaScript作用域.html" />
     <Content Include="js服务端.html" />
@@ -88,6 +94,10 @@
     <Content Include="js继承-原型链.html" />
     <Content Include="object.js" />
     <Content Include="QuerySelector.html" />
+    <Content Include="packages.config" />
+    <None Include="Scripts\jquery-1.8.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.8.2.js" />
+    <Content Include="Scripts\jquery-1.8.2.min.js" />
     <Content Include="Web.config" />
     <Content Include="webworker\worker.html" />
     <Content Include="zindex.html" />
