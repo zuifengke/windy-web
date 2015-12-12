@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <style>
+        a.info {
+            position: relative; /*this is the key*/
+            z-index: 24;
+            color: #000;
+            text-decoration: none;
+        }
+
+            a.info:hover {
+                z-index: 25;
+                background-color: #76B7E7;
+            }
+
+            a.info span {
+                display: none;
+            }
+
+            a.info:hover span { /*the span will display just on :hover state*/
+                display: block;
+                position: absolute;
+                font-weight: bold;
+                top: 0px;
+                left: 20%;
+                width: 100px;
+                margin-left: -125px;
+                border: 1px solid #0cf;
+                background-color: #0099FF;
+                color: #ffffff;
+                text-align: center;
+                z-index: 9999999;
+            }
+    </style>
+
+
+    <div id=''>
+        <a class="info" href="#" title="Does the client smoke?">?fff</a>
+    </div>
+</body>
+</html>

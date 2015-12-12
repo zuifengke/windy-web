@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta charset="utf-8" />
+
+</head>
+<body>
+    <div>
+        <select id="PlaceType">
+            <option value="考点">考点</option>
+            <option value="城市">城市</option>
+        </select>
+    </div>
+    <script src="Scripts/jquery-1.8.2.min.js"></script>
+    <script>
+        $("#PlaceType").change(function () {
+
+            // 先清空第二个
+           
+            alert($("#PlaceType").val())
+
+        });
+        
+    </script>
+</body>
+
+</html>

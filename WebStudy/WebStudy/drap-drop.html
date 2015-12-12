@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta charset="utf-8" />
+
+</head>
+<body>
+    <div id="dragme" draggable="true">drag me</div>
+    <script src="Scripts/jquery-1.8.2.min.js"></script>
+    <script>
+    var element = $("#dragme");
+    element.bind("dragstart", function (event) {
+        // We don't want to use jQuery's abstraction
+        event = event.originalEvent;
+        event.dataTransfer.effectAllowed = "move";
+        event.dataTransfer.setData("text/plain", $(this).text());
+        event.dataTransfer.setData("text/html", $(this).html());
+        event.dataTransfer.setDragImage("images/drag.png", -10, -10); 
+    });
+    </script>
+</body>
+
+</html>
