@@ -58,12 +58,18 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bootstrap\tooltip.html" />
     <Content Include="canvas\Paths.html" />
     <Content Include="canvas\canvas.html" />
     <Content Include="canvas\Translation.html" />
     <Content Include="CommunicationAPI.html" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
     <Content Include="convertor.js" />
     <Content Include="crossOriginUpload.html" />
+    <Content Include="css\order.css" />
     <Content Include="css学习\css定位.html" />
     <Content Include="css学习\css导航.html" />
     <Content Include="css学习\css-小尖角效果.html" />
@@ -78,6 +84,22 @@
     <Content Include="css学习\字体.html" />
     <Content Include="css学习\链接.html" />
     <Content Include="div-alt.html" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="images\blue_bg.png" />
+    <Content Include="images\blue_l.png" />
+    <Content Include="images\blue_r.png" />
+    <Content Include="images\green_bg.png" />
+    <Content Include="images\green_l.png" />
+    <Content Include="images\green_r.png" />
+    <Content Include="images\orange_bg.png" />
+    <Content Include="images\orange_l.png" />
+    <Content Include="images\orange_r.png" />
+    <Content Include="images\purple_bg.png" />
+    <Content Include="images\purple_l.png" />
+    <Content Include="images\purple_r.png" />
+    <Content Include="images\red_bg.png" />
+    <Content Include="images\red_l.png" />
+    <Content Include="images\red_r.png" />
     <Content Include="jquery-select.html" />
     <Content Include="drap-drop.html" />
     <Content Include="eg_smile.gif" />
@@ -86,6 +108,11 @@
     <Content Include="form\register.html" />
     <Content Include="Geolocation.html" />
     <Content Include="images\drag.png" />
+    <Content Include="jsonp\jsonp-jquery.html" />
+    <Content Include="jsonp\jsonp.html" />
+    <Content Include="jsonp\jsonp2.html" />
+    <Content Include="jsonp\remote.js" />
+    <Content Include="medial-queries.html" />
     <Content Include="Object.create.html" />
     <Content Include="index.html" />
     <Content Include="JavaScript作用域.html" />
@@ -93,11 +120,26 @@
     <Content Include="js组件分装.html" />
     <Content Include="js继承-原型链.html" />
     <Content Include="object.js" />
+    <Content Include="order-list.html" />
     <Content Include="QuerySelector.html" />
     <Content Include="packages.config" />
-    <None Include="Scripts\jquery-1.8.2.intellisense.js" />
-    <Content Include="Scripts\jquery-1.8.2.js" />
-    <Content Include="Scripts\jquery-1.8.2.min.js" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Scripts\angular-mocks.js" />
+    <Content Include="Scripts\angular.js" />
+    <Content Include="Scripts\angular.min.js" />
+    <Content Include="Scripts\angular.min.js.map" />
+    <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-1.9.1.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
     <Content Include="Web.config" />
     <Content Include="webworker\worker.html" />
     <Content Include="zindex.html" />
@@ -106,6 +148,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Scripts\jquery-1.9.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -114,6 +157,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="angular-js\" />
     <Folder Include="css学习\css\" />
   </ItemGroup>
   <PropertyGroup>

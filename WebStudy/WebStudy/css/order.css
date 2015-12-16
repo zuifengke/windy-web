@@ -1,0 +1,81 @@
+﻿.order-detail-width{width:33%;}
+/*第一个左边的进度条*/
+.first-order-process-left { float: left; }
+
+.first-order-process-left .left { background-image: url(../images/orange_l.png); background-repeat: no-repeat; float: left; width: 2.5%; height: 12px; }
+
+.first-order-process-left .center { background-image: url(../images/orange_bg.png); background-repeat: repeat-x; float: left; width: 97.5%; height: 12px; }
+/*第一个中间的进度条*/
+.first-order-process-center { float: left; }
+
+.first-order-process-center .center { background-image: url(../images/orange_bg.png); background-repeat: repeat-x; float: left; width: 100%; height: 12px; }
+/*第一个右边的进度条*/
+.first-order-process-right { float: left; }
+
+.first-order-process-right .center { background-image: url(../images/orange_bg.png); background-repeat: repeat-x; float: left; width: 97.5%; height: 12px; }
+
+.first-order-process-right .right { background-image: url(../images/orange_r.png); background-repeat: no-repeat; float: left; width: 2.5%; height: 12px; }
+/*第二个左边的进度条*/
+.second-order-process-left { float: left; }
+
+.second-order-process-left .left { background-image: url(../images/blue_l.png); background-repeat: no-repeat; float: left; width: 2.5%; height: 12px; }
+
+.second-order-process-left .center { background-image: url(../images/blue_bg.png); background-repeat: repeat-x; float: left; width: 97.5%; height: 12px; }
+/*第二个中间的进度条*/
+.second-order-process-center { float: left; }
+
+.second-order-process-center .center { background-image: url(../images/blue_bg.png); background-repeat: repeat-x; float: left; width: 100%; height: 12px; }
+/*第二个右边的进度条*/
+.second-order-process-right { float: left; }
+
+.second-order-process-right .center { background-image: url(../images/blue_bg.png); background-repeat: repeat-x; float: left; width: 97.5%; height: 12px; }
+
+.second-order-process-right .right { background-image: url(../images/blue_r.png); background-repeat: no-repeat; float: left; width: 2.5%; height: 12px; }
+/*第三个左边的进度条*/
+.third-order-process-left { float: left; }
+
+.third-order-process-left .left { background-image: url(../images/green_l.png); background-repeat: no-repeat; float: left; width: 2.5%; height: 12px; }
+
+.third-order-process-left .center { background-image: url(../images/green_bg.png); background-repeat: repeat-x; float: left; width: 97.5%; height: 12px; }
+/*第三个中间的进度条*/
+.third-order-process-center { float: left; }
+
+.third-order-process-center .center { background-image: url(../images/green_bg.png); background-repeat: repeat-x; float: left; width: 100%; height: 12px; }
+/*第三个右边的进度条*/
+.third-order-process-right { float: left; }
+
+.third-order-process-right .center { background-image: url(../images/green_bg.png); background-repeat: repeat-x; float: left; width: 97.5%; height: 12px; }
+
+.third-order-process-right .right { background-image: url(../images/green_r.png); background-repeat: no-repeat; float: left; width: 2.5%; height: 12px; }
+/*第四个左边的进度条*/
+.fouth-order-process-left { float: left; }
+
+.fouth-order-process-left .left { background-image: url(../images/red_l.png); background-repeat: no-repeat; float: left; width: 2.5%; height: 12px; }
+
+.fouth-order-process-left .center { background-image: url(../images/red_bg.png); background-repeat: repeat-x; float: left; width: 97.5%; height: 12px; }
+/*第四个中间的进度条*/
+.fouth-order-process-center { float: left; }
+
+.fouth-order-process-center .center { background-image: url(../images/red_bg.png); background-repeat: repeat-x; float: left; width: 100%; height: 12px; }
+/*第四个右边的进度条*/
+.fouth-order-process-right { float: left; }
+
+.fouth-order-process-right .center { background-image: url(../images/red_bg.png); background-repeat: repeat-x; float: left; width: 97.5%; height: 12px; }
+
+.fouth-order-process-right .right { background-image: url(../images/red_r.png); background-repeat: no-repeat; float: left; width: 2.5%; height: 12px; }
+/*第五个左边的进度条*/
+.fifth-order-process-left { float: left; }
+
+.fifth-order-process-left .left { background-image: url(../images/purple_l.png); background-repeat: no-repeat; float: left; width: 2.5%; height: 12px; }
+
+.fifth-order-process-left .center { background-image: url(../images/purple_bg.png); background-repeat: repeat-x; float: left; width: 97.5%; height: 12px; }
+/*第五个中间的进度条*/
+.fifth-order-process-center { float: left; }
+
+.fifth-order-process-center .center { background-image: url(../images/purple_bg.png); background-repeat: repeat-x; float: left; width: 100%; height: 12px; }
+/*第五个右边的进度条*/
+.fifth-order-process-right { float: left; }
+
+.fifth-order-process-right .center { background-image: url(../images/purple_bg.png); background-repeat: repeat-x; float: left; width: 97.5%; height: 12px; }
+
+.fifth-order-process-right .right { background-image: url(../images/purple_r.png); background-repeat: no-repeat; float: left; width: 2.5%; height: 12px; }
